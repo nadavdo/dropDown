@@ -1,0 +1,12 @@
+* {
+  font-family: Lato;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.field-label {
+  margin: 5px 0 10px 0;
+  font-weight: bold;
+}

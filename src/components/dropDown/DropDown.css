@@ -1,0 +1,47 @@
+.drop-down > .drop-down-container {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+    min-width: 150px;
+    max-width: 300px;
+    height: 20px;
+    padding: 5px;
+  }
+  .drop-down > .drop-down-container > .drop-down-btn {
+    align-items: right;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-image: url("../../assets/chevron-down.svg");
+    background-repeat: no-repeat;
+  }
+  
+  .drop-down-panel {
+    border: solid 1px;
+    min-width: 150px;
+    max-width: 300px;
+    padding: 5px;
+  }
+
+  .side-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-top: -3px;
+  }
+  
+  .right-icon {
+    float: right;
+  }
+
+  .selected {
+    background-color: aliceblue;  
+   }
+  .selected:hover {
+    cursor: pointer;
+  }
+  .notSelected:hover {
+      cursor: pointer;
+      background-color: aliceblue;
+  }
